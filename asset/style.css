@@ -1,0 +1,460 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    background-image: url("gray2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Titillium Web";
+    background-size: 100% 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 10px 0;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-center{
+    align-content: center;
+}
+
+header{
+    background: #6160f0;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    /*box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.4);*/
+    position: absolute;
+    top: 25px;
+    width: 100vw;
+}
+
+#header{
+
+}
+
+.head1{
+    flex-basis: 30%;
+}
+
+.logoweb{
+    font-family: "Marck Script";
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 40px;
+    margin: 15px 0;
+    line-height: 60px;
+}
+
+.yellow{
+    color: #fefd43;
+}
+
+.head2{
+    flex-basis: 70%;
+}
+
+nav{
+    display: inline;
+    font-weight: 600;
+}
+
+.menunav:hover{
+    color: #fefd43;
+    transition: 0.4s ease-in-out;
+}
+
+.navigation{
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li{
+    display: inline;
+    margin-right: 3vw;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.menunav{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    margin-top:105px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.content-1{
+    display: flex;
+    background: white;
+    box-shadow: 7px 10px 10px -5px rgba(0,0,0,0.4);
+    margin-bottom: 55px;
+
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+}
+
+div #content1-row1{
+    flex-basis: 40%;
+}
+
+#content-1-row2{
+    flex-basis: 60%;
+    margin: 2% 3%;
+}
+
+#content-1-row2 p, #content-1-row2 h4{
+    margin:5px 0;
+}
+
+.name{
+    color: #6160f0;
+    margin: 0;
+}
+
+.con2-row1{
+    flex-basis: 25%;
+}
+
+.lessmargin p, .lessmargin h4{
+    margin: 5px 0;
+}
+
+.con2-row2{
+    flex-basis: 75%;
+}
+
+.purpbutton{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6160f0;
+    background: #6160f0;
+    color: white;
+    padding: 1.5% 3%;
+    font-weight: 600;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.purpbutton:hover{
+    border-color: #6160f0;
+    background: white;
+    transition: 0.25s ease-in-out;
+    color: #6160f0;
+}
+
+.buttonatas{
+    align-content: flex-end;
+    text-align: right;
+    margin-top: 25px;
+}
+
+#bgpurp{
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    background: #6160f0;
+    z-index: -1;
+    top:0;
+}
+
+.flexcent{
+    display: flex;
+    align-items: center;
+}
+
+.width100{
+    width: 100%;
+}
+
+.contenttitle{
+    margin: 35px 0;
+    font-size: 22px;
+    color: #6160f0;
+    text-align: center;
+}
+
+.iconcontenttitle{
+    margin: 0 10px;
+    margin-bottom: -5px;
+    width: 35px;
+}
+
+.sub2title{
+    margin-bottom: 25px;
+}
+
+.perside{
+    padding: 30px 0;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.con3-row1{
+    flex-basis: 30%;
+}
+
+.con3-row2{
+    flex-basis: 70%;
+}
+
+.content2-row1{
+    flex-basis: 50%;
+}
+
+.purptext{
+    color: #6160f0;
+}
+
+.textright{
+    text-align: right;
+    float: right;
+}
+
+.perskill{
+    margin-bottom: 20px;
+}
+
+.skillname{
+    margin: 5px 0;
+}
+
+.skillbarbg{
+    width: 100%;
+    background: #dddddd;
+    height: 5px;
+}
+
+.skillbarprogress{
+    background: #6160f0;
+    height: 100%;
+}
+
+.edubox{
+    margin: 10px 0;
+    width: 90%;
+    padding: 5px 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.edubox:hover{
+    border-color: #6160f0;
+    cursor: pointer;
+}
+
+.eduname{
+    margin: 1.5px 0px;
+}
+
+footer{
+    background: black;
+    color: white;
+}
+
+.foot{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot1{
+    flex-basis: 30%;
+    padding-top: 35px;
+}
+
+.foot2{
+    flex-basis: 45%;
+}
+
+.foot3{
+    flex-basis: 25%;
+    color: white;
+}
+
+.footlogo{
+    font-size: 50px;
+    color: #6160f0;
+}
+
+.footnavmenu{
+    list-style: none;
+    padding-top: 25px;
+}
+
+.footnavmenu a{
+    color: white;
+}
+.footnavmenu a:hover{
+    color: #6160f0;
+    transition: 0.4s ease-in-out;
+}
+
+.buttonsocmed:hover{
+    cursor: pointer;
+}
+
+.footmenu{
+    margin: 6px 0;
+    font-size: 17px;
+}
+
+.socmed{
+    line-height: 70px;
+    color: white;
+    font-weight: 600;
+}
+
+.buttonsocmed{
+    border-style: none;
+    border-color: #6160f0;
+    background: #6160f0;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    margin-right: 7px;
+
+}
+
+.socmedbutton{
+    margin-top: -15px;
+    margin-bottom: 13px;
+}
+
+.buttonsocmed:hover{
+    background: #fefd43;
+    transition: 0.35s ease-in-out;
+}
+
+.iconsocmed{
+    width: 20px;
+    height: 20px;
+}
+
+.footcopylink{
+    text-decoration: none;
+    color: #6160f0;
+}
+
+.footcopylink:hover{
+    color: #fefd43;
+    transition: 0.4s ease-in-out;
+}
+
+.flex35{
+    flex-basis: 35%;
+}
+
+.flex65{
+    flex-basis: 65%;
+}
+
+@media only screen and (max-width: 1700px){
+    #bgpurp{
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    #bgpurp{
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #bgpurp{
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .buttonatas{
+        margin-bottom: 20px;
+    }
+
+    #bgpurp{
+        height: 55vh;
+    }
+
+    .resflex{
+        flex-direction: column;
+    }
+
+    div #content1-row1{
+        flex-basis: 20%;
+    }
+
+    .flex35{
+        flex-basis: 42%;
+    }
+    .flex65{
+        flex-basis: 58%;
+    }
+    .footnavmenu{
+        padding-left: 0;
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .head1hilang{
+        display: none;
+        flex-basis: 0%;
+    }
+
+    .head2panjang{
+        flex-basis: 100%;
+    }
+
+    .head2hilang{
+        flex-basis: 0;
+        display: none;
+    }
+
+    .head1panjang{
+        flex-basis: 100%;
+    }
+
+    .navtengah{
+        text-align: center;
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .res1{
+        flex-basis: 50%;
+    }
+
+    .res2{
+        flex-basis: 50%;
+    }
+}
